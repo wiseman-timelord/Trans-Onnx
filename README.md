@@ -1,4 +1,4 @@
-<BR># Trans-Onnx
+<BR># Trans-Onnx - Status: Alpha, requires coding assistance.
 <BR>A WSL Python based, Transformers to Onnx converter.
 <BR>
 <BR>The program consists of three scripts: "merge.py," "convert.py," and "run.bat," along with a "settings.json" file. The purpose of the program is to merge and convert model files to the ONNX format for machine learning tasks.
