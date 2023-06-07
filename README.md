@@ -13,11 +13,14 @@
 <BR>
 <BR>The "settings.json" file stores configuration parameters such as the model directory, the first binary file, and the maximum position embeddings.
 <BR>
-<BR>Overall, the program automates the process of merging and converting model files, providing a convenient way to prepare models for machine learning tasks.
+<BR>Overall, the program automates the process of merging and converting model files, providing a convenient way to prepare models for machine learning tasks, and most of the program is present.
 <BR>
 <BR>Assistance required:
-<BR>GPT4 or GPT4+Web, may be able to fix it with the correct prompt, or otherwise programmer may be able to see whats wrong, create fork, the push fixed code to me. Program is currently unable..
-<BR>1) To copy the name of the selected folder to "model_dir" in "settings.json". 
-<BR>2) To find the first "*.bin" file in the selected model folder and input its name into "first_bin_file" in the "settings.json" 
-<BR>3) To copy the values for "max_sequence_length" from the "config.json" in the selected model folder to the "max_position_embeddings" in the "settings.json".
-<BR>However the rest of the program is mostly researched and present.
+<BR>GPT4 or GPT4+Web, may be able to fix it with the correct prompt, or otherwise programmer may be able to see whats wrong, create fork, the push fixed code to me. The current issues with the code is..
+<BR>1) Unable to copy the name of the selected folder to "model_dir" in "settings.json". 
+<BR>2) Unable to find the first "*.bin" file in the selected model folder and input its name into "first_bin_file" in the "settings.json" 
+<BR>3) Unable to copy the values for "max_sequence_length" from the "config.json" in the selected model folder to the "max_position_embeddings" in the "settings.json".
+<BR>4) One of the first 3 issues is also causing the "settings.json" to become corrupt, so ensure to back that up, and restore it each time.
+  
+ 
+  
