@@ -5,7 +5,7 @@
 <BR>The program is the result of 5 mostly long sessions of GPT4 with Link Reader plugin, and consists of three scripts: "merge.py," "convert.py," and "run.bat," along with a "settings.json" file. 
 <BR>
 <BR>The program has been reinvented from a pure python version of the application I made, however, I discovered that python does not release the memory from the merging process, even after implementing all the garbage removal code I could, it still would not release the memory after merging, so, best to run the scripts seperately through a batch. Additionally, WSL and Powershell, commands are used.  
-<BR>
+  
 <BR>The "run.bat" script serves as the entry point for executing the program. It sets the input and output directories, checks the workspace folder, and ensures the model and output directories exist. It allows the user to select a model from the input directory and updates the "settings.json" file accordingly. Then, it executes the "merge.py" and "convert.py" scripts using WSL (Windows Subsystem for Linux).
 <BR>
 <BR>The "merge.py" script merges multiple "*.bin" files found in the typical transformers libraries into a single file. It loads the settings from "settings.json" and calculates the number of threads for merging. It collects the model files from the specified directory, merges them using a progress bar, and saves the merged file in the "./workspace" directory.
