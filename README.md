@@ -16,8 +16,7 @@
 <BR>Overall, the program automates the process of merging and converting model files, providing a convenient way to prepare models for machine learning tasks.
 <BR>
 <BR>Assistance required:
-<BR>GPT4 or GPT4+Web, may be able to fix it with the correct prompt, or otherwise programmer may be able to see whats wrong, create fork, the push fixed code to me.
-<BR>Program is currently unable..
+<BR>GPT4 or GPT4+Web, may be able to fix it with the correct prompt, or otherwise programmer may be able to see whats wrong, create fork, the push fixed code to me. Program is currently unable..
 <BR>1) To copy the name of the selected folder to "model_dir" in "settings.json". 
 <BR>2) To find the first "*.bin" file in the selected model folder and input its name into "first_bin_file" in the "settings.json" 
 <BR>3) To copy the values for "max_sequence_length" from the "config.json" in the selected model folder to the "max_position_embeddings" in the "settings.json".
