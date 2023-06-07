@@ -1,5 +1,5 @@
 <BR># Trans-Onnx 
-<BR>To merge and convert, model files from Transformers to the ONNX format, for machine learning tasks, through use of, Windows Batch & WSL Python. Reasoning..
+<BR>To merge and convert, model files from Transformers to the ONNX format, for machine learning tasks, through use of, Windows Batch & WSL Python. The thinking of it is..
 <BR>1) Onnx Libraries are not as good as Huggingface libraries, for my interests.
 <BR>2) GUI options and performance and python libraries, are limited on wsl/windows.
 <BR>
