@@ -1,0 +1,5 @@
+{
+    "model_dir": "model_folder_name",
+    "first_bin_file": "bin_file_name",
+    "max_position_embeddings": 1024
+}
