@@ -17,7 +17,7 @@
 <BR>
 <BR>The "settings.json" file stores configuration parameters such as the model directory, the first binary file, and the maximum position embeddings.
 <BR>
-<BR>Overall, the program automates the process of merging and converting model files, providing a convenient way to prepare models for machine learning tasks, and most of the program is present.
+<BR>Overall, the program semi-automates the process of merging and converting model files, providing a convenient way to prepare models for machine learning tasks, and most of the program is present.
 <BR>
 <BR>Assistance required:
 <BR>GPT4 or GPT4+Web, may be able to fix it with the correct prompt, or otherwise programmer may be able to see whats wrong, create fork, the push fixed code to me. The current issues with the code is..
