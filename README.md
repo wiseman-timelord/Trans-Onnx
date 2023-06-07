@@ -1,5 +1,5 @@
 <BR># Trans-Onnx  
-<BR>To merge and convert, model files to the ONNX format for machine learning tasks through, Windows Batch & WSL Python.
+<BR>To merge and convert, model files to the ONNX format for machine learning tasks, through use of, Windows Batch & WSL Python.
 <BR>
 <BR>Status: Alpha, requires coding assistance, mostly created project for someone to fork and develop a little further to complete with some know how. Will be of interest to someone wishing to automate the process of converting large number of linux friendly transformers based language models to windows friendly onnx based models, for use on windows based language model applications. 
 <BR>The program is the result of 5 mostly long sessions of GPT4 with Link Reader plugin, and consists of three scripts: "merge.py," "convert.py," and "run.bat," along with a "settings.json" file. 
