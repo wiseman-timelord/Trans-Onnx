@@ -1,11 +1,10 @@
 <BR># Trans-Onnx 
+<BR>Status: Alpha, requires coding assistance, see last paragraph. 
 <BR>
 <BR>To merge and convert, model files from Transformers to the ONNX format, for machine learning tasks, through use of, Windows Batch & WSL Python. The thinking of it is..
 <BR>1) Onnx Libraries are not evolving as fast as Huggingface libraries.
 <BR>2) GUI options and performance and libraries, for python are limited on WSL/Windows.
 <BR>3) Trans-Onnx will, inspire and facilitate, creation of better llm software on Windows.
-<BR>
-<BR>Status: Alpha, requires coding assistance, mostly created project for someone to fork and develop a little further to complete with some know how. Will be of interest to someone wishing to semi-automate the process of converting large number of linux friendly transformers based language models to windows friendly onnx based models, for use on windows based language model applications. 
 <BR>
 <BR>The program is the result of 5 mostly long sessions of GPT4 with Link Reader plugin, and consists of three scripts: "merge.py," "convert.py," and "run.bat," along with a "settings.json" file, and has been reinvented from a pure python version of the application I made. I discovered that python does not release the memory from the merging process, even after implementing all the garbage removal code I could, it still would not release the bulk of the memory after merging, so, best to run the scripts seperately through a batch. Additionally, WSL and Powershell, commands are used.  
   
