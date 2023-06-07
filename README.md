@@ -1,6 +1,8 @@
-<BR># Trans-Onnx - Status: Alpha, requires coding assistance.
+<BR># Trans-Onnx  
 <BR>A WSL Python based, Transformers to Onnx converter.
 <BR>
+<BR>Status: Alpha, requires coding assistance, mostly created project for someone to fork and develop a little further to complete with some know how. Will be of interest to someone wishing to automate the process of converting large number of linux friendly transformers based language models to windows friendly onnx based models, for use on windows based language model applications. 
+<BR>  
 <BR>The program consists of three scripts: "merge.py," "convert.py," and "run.bat," along with a "settings.json" file. The purpose of the program is to merge and convert model files to the ONNX format for machine learning tasks.
 <BR>
 <BR>The "run.bat" script serves as the entry point for executing the program. It sets the input and output directories, checks the workspace folder, and ensures the model and output directories exist. It allows the user to select a model from the input directory and updates the "settings.json" file accordingly. Then, it executes the "merge.py" and "convert.py" scripts using WSL (Windows Subsystem for Linux).
@@ -12,3 +14,11 @@
 <BR>The "settings.json" file stores configuration parameters such as the model directory, the first binary file, and the maximum position embeddings.
 <BR>
 <BR>Overall, the program automates the process of merging and converting model files, providing a convenient way to prepare models for machine learning tasks.
+<BR>
+<BR>Assistance required:
+<BR>GPT4 or GPT4+Web, may be able to fix it with the correct prompt, or otherwise programmer may be able to see whats wrong, create fork, the push fixed code to me.
+<BR>Program is currently unable..
+<BR>1) To copy the name of the selected folder to "model_dir" in "settings.json". 
+<BR>2) To find the first "*.bin" file in the selected model folder and input its name into "first_bin_file" in the "settings.json" 
+<BR>3) To copy the values for "max_sequence_length" from the "config.json" in the selected model folder to the "max_position_embeddings" in the "settings.json".
+<BR>However the rest of the program is mostly researched and present.
